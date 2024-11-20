@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner s=new Scanner(System.in);
+         int num=s.nextInt();
+            System.out.print("Enter a number:");
+             if (num%2==0) {
+               System.out.println(num+"it is a Perfuct multiple");
+               
+             }
+             else if(num%2==1){
+               System.out.println(num+"it is a Not multiple");
+             }
+  }
+}
