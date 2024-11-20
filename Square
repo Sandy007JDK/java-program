@@ -1,0 +1,19 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;                         //package
+class Main {                                //class
+    public static void main(String[] args) { //main fuction
+        Scanner s=new Scanner(System.in);    //input scanner class
+        int square=s.nextInt(); //getting from user 
+         int i=1;       
+           while(i*i<=square)   //looping statement
+           {
+             if(i*i==square){   // if condition
+                 System.out.println("perfuct square");
+                 return; // exit stattemnt
+             }
+             i++; // increment        
+             }
+         System.out.println("Not square");
+    }
+}
